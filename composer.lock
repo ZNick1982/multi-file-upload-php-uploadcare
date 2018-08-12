@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3c265247c906fd8b4e4c61f4d77e1ca1",
+    "packages": [
+        {
+            "name": "uploadcare/uploadcare-php",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uploadcare/uploadcare-php.git",
+                "reference": "4885d948504b0de733d6020f560c42ed537cd7ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uploadcare/uploadcare-php/zipball/4885d948504b0de733d6020f560c42ed537cd7ec",
+                "reference": "4885d948504b0de733d6020f560c42ed537cd7ec",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "=4.8.36",
+                "squizlabs/php_codesniffer": ">=2.9.1,<4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Uploadcare": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Uploadcare, LLC",
+                    "email": "hello@uploadcare.com"
+                }
+            ],
+            "description": "Uploadcare API binding for PHP",
+            "homepage": "https://uploadcare.com",
+            "keywords": [
+                "cdn",
+                "cloud",
+                "files",
+                "image management",
+                "upload",
+                "uploadcare"
+            ],
+            "time": "2018-05-14T19:13:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
